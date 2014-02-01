@@ -54,4 +54,4 @@ To build with LLVM and libffi by default, create custom.mk or add the following 
 CABALFLAGS += -f LLVM -f FFI
 The file custom.mk-alldeps is a suitable example.
 
-Idris has a runtime dependency on libgmp, and on Boehm GC (libgc) when using the LLVM codegen. These are needed for linking into compiled programs, so be sure these are compiled for Idris's default target architecture (usually 64 bit on x86_64 systems).
+Idris Elba has a runtime dependency on libgmp, and on Boehm GC (libgc) when using the LLVM codegen. These are needed for linking into compiled programs, so be sure these are compiled for Idris's default target architecture (usually 64 bit on x86_64 systems).
