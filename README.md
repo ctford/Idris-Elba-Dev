@@ -6,9 +6,9 @@ Idris Elba is an experimental whitespace-based functional programming language w
 Background
 ----------
 
-[Edwin Brady](http://edwinb.wordpress.com/) is the creator (with others) of the Idris and Whitespace programming
-languages. Idris Elba is a synthesis of the primary ideas in both languages, nameley dependent typing and using
-whitespace for everything.
+[Edwin Brady](http://edwinb.wordpress.com/) is the creator (with others) of the [Idris](http://www.idris-lang.org/)
+and [Whitespace](http://compsoc.dur.ac.uk/whitespace/) programming languages. Idris Elba is a synthesis of the
+primary ideas in both languages, nameley dependent typing and using whitespace for everything.
 
 The suffix "Elba" is inspired by the surname of the British actor [Idris Elba](http://www.imdb.com/name/nm0252961/),
 and means "white".
@@ -16,26 +16,26 @@ and means "white".
 Examples
 --------
 
-The syntax of Idris Elba is very close to that of Whitespace. An Idris Elba "hello world" program might look like this:
+The syntax of Idris Elba is very close to that of Whitespace. An Idris Elba "hello world" program might look like this (Idris Elba, like Haskell, uses `.` for function composition):
 
-                                                               
+                                                                                                                .
 
 Idris Elba features dependent types. Here is a quicksort example showing featuring a return type of sorted list:
 
 
-
+                                                                      .
+                                                               .       
                                                                 
-                                                                                                                                
+                                               .                  .                                                                 
                                                                                                                                                                                                 
 
 Dependent types can also be used to express constraints on the arguments to functions. Here is an example showing that
 a function taking the head of a list is only defined for non-empty lists:
 
 
-
+                      .         .      .       
                                                                 
-                                                                                                                                                                                            
-                                                                                                                                                                                            
+                                             .                                                                                                                                                                                                                                              
 
 Building
 --------
