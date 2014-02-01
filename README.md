@@ -18,22 +18,24 @@ Examples
 
 The syntax of Idris Elba is very close to that of Whitespace. An Idris Elba "hello world" program might look like this:
 
-`                                                               `
+                                                               
 
 Idris Elba features dependent types. Here is a quicksort example showing featuring a return type of sorted list:
 
-`
 
 
-                                                                `
+                                                                
+                                                                                                                                
+                                                                                                                                                                                                
 
 Dependent types can also be used to express constraints on the arguments to functions. Here is an example showing that
 a function taking the head of a list is only defined for non-empty lists:
 
-`
 
 
-                                                                `
+                                                                
+                                                                                                                                                                                            
+                                                                                                                                                                                            
 
 Building
 --------
