@@ -55,5 +55,3 @@ CABALFLAGS += -f LLVM -f FFI
 The file custom.mk-alldeps is a suitable example.
 
 Idris has a runtime dependency on libgmp, and on Boehm GC (libgc) when using the LLVM codegen. These are needed for linking into compiled programs, so be sure these are compiled for Idris's default target architecture (usually 64 bit on x86_64 systems).
-
-The Idris wiki contains instructions for building on various platforms and for getting involved with development. It is located at https://github.com/idris-lang/Idris-dev/wiki .
